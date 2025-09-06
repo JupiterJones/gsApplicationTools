@@ -1,0 +1,14 @@
+{
+	"category" : "GsApplicationTools-Glass",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TransientMutex",
+	"pools" : [
+		 ],
+	"super" : "TransientSemaphore",
+	"type" : "normal" }

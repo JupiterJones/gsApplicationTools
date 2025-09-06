@@ -1,0 +1,17 @@
+{
+	"category" : "GsApplicationTools-Glass",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"value" ],
+	"name" : "TransientValue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : [
+		"normal",
+		[
+			"dbTransient" ] ] }

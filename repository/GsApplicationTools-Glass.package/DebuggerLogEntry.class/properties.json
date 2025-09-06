@@ -1,0 +1,14 @@
+{
+	"category" : "GsApplicationTools-Glass",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"continuation" ],
+	"name" : "DebuggerLogEntry",
+	"pools" : [
+		 ],
+	"super" : "ObjectLogEntry",
+	"type" : "normal" }

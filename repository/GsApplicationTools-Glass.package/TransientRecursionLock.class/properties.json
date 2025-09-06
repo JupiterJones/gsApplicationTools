@@ -1,0 +1,14 @@
+{
+	"category" : "GsApplicationTools-Glass",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lockingProcess" ],
+	"name" : "TransientRecursionLock",
+	"pools" : [
+		 ],
+	"super" : "TransientMutex",
+	"type" : "normal" }

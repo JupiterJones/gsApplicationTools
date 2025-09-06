@@ -1,0 +1,12 @@
+RwLoadComponent {
+	#name : 'Core',
+	#projectNames : [ ],
+	#componentNames : [ ],
+	#packageNames : [
+		'GsApplicationTools-Glass',
+		'GsApplicationTools-Server',
+		'GsApplicationTools-ServerV30',
+		'GsApplicationTools-Test'
+	],
+	#comment : ''
+}

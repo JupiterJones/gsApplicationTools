@@ -1,0 +1,20 @@
+{
+	"category" : "GsApplicationTools-Glass",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ObjectLog",
+		"ObjectQueue" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pid",
+		"stamp",
+		"label",
+		"priority",
+		"object",
+		"tag" ],
+	"name" : "ObjectLogEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
