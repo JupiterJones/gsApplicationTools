@@ -1,4 +1,4 @@
-*bootstrap-private
+bootstrap-private
 semaphore
    | sem |
    (sem := semaphore) ifNil:[
