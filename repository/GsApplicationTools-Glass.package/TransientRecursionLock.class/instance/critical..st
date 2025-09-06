@@ -1,4 +1,4 @@
-*bootstrap-mutual-exclusion
+bootstrap-mutual-exclusion
 critical: aBlock
 	"Answer the result of evaluating aBlock while allowing the receiver's
 	semaphore to synchronize processing other processes.
