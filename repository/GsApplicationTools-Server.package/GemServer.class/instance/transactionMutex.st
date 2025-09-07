@@ -1,3 +1,3 @@
 transactions-support
 transactionMutex
-  ^ GRPlatform current transactionMutex
+  "^ GRPlatform current transactionMutex"
