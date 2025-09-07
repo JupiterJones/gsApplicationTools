@@ -11,8 +11,9 @@ enableRemoteBreakpointHandling
   GemToGemAnnouncement installStaticHandler.
   System _commitPrintingDiagnostics
     ifFalse: [ self error: 'Could not commit for GemToGemSignaling' ].
-  GemToGemAnnouncement announcer
+    
+  "GemToGemAnnouncement announcer
     on: ClearAllBreakpointsAnnouncement send: #'clearAllBreakpoints:' to: self;
     on: SetOrClearBreakpointAnnouncement
       send: #'setOrClearBreakpoint:'
-      to: self
+      to: self"
