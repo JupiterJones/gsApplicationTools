@@ -6,7 +6,6 @@ RwLoadComponent {
 		'GsApplicationTools-Glass',
 		'GsApplicationTools-Server',
 		'GsApplicationTools-ServerV30',
-		'GsApplicationTools-BreakpointV37',
 		'GsApplicationTools-Test'
 	],
 	#comment : ''
