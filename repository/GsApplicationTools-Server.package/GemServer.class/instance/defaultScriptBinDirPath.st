@@ -1,5 +1,6 @@
 server specialization
 defaultScriptBinDirPath
+"
   | wc fileTreeRepo |
   MCWorkingCopy registry
     do: [ :mgr | 
@@ -11,3 +12,4 @@ defaultScriptBinDirPath
     detect: [ :repo | repo isKindOf: MCFileTreeRepository ].
   ^ (fileTreeRepo directory containingDirectory directoryNamed: 'bin')
     pathString
+"
