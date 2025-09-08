@@ -1,3 +1,3 @@
 transactions-support
 transactionMutex
-  "^ GRPlatform current transactionMutex"
+	^ transactionMutex ifNil: [  transactionMutex := TransientRecursionLock new ]

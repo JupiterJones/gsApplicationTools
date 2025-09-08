@@ -12,6 +12,7 @@
 		"portOrResourceNameList",
 		"enableRemoteBreakpoints",
 		"transactionMode",
+		"transactionMutex",
 		"interactiveMode",
 		"crashLog",
 		"enableCreateContinuations",
