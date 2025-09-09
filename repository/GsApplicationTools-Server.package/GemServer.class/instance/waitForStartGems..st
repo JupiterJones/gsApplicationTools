@@ -6,7 +6,7 @@ waitForStartGems: timeOutSeconds
   self logControlEvent: 'Wait for Gems: ' , self name.
   self portOrResourceNameList
     do: [ :portOrResourceName | 
-      | pidFilePath file |
+      | pidFilePath |
       pidFilePath := self gemPidFileName: portOrResourceName.
       [ GsFile existsOnServer: pidFilePath ]
         whileFalse: [ 

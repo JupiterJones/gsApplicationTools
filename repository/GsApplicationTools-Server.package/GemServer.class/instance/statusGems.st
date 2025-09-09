@@ -5,7 +5,7 @@ statusGems
   self logControlEvent: 'Status Gems: ' , self name.
   self portOrResourceNameList
     do: [ :portOrResourceName | 
-      | pidFilePath file |
+      | pidFilePath |
       pidFilePath := self gemPidFileName: portOrResourceName.
       (GsFile openReadOnServer: pidFilePath)
         ifNotNil: [ :file | pidList := pidList , ' ' , file contents asNumber printString ] ].
