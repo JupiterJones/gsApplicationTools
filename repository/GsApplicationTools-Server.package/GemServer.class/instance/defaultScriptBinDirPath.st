@@ -1,3 +1,3 @@
 server specialization
 defaultScriptBinDirPath
-	^ (Rowan projectNamed: 'gsApplicationTools') projectUrl , '/bin'
+	^ ((Rowan projectNamed: 'gsApplicationTools') repositoryRoot / 'bin') pathString
